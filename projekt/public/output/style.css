@@ -1,0 +1,76 @@
+body{
+    background-color: khaki;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    font-family: monospace;
+
+}
+input{
+
+    background-color:beige;
+    margin: 6px;
+    border: 0px;
+    padding: 6px;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-family: monospace;
+
+}
+button {
+    
+    border-bottom-color: rgba(146, 178, 215, 0.43);
+    background-color: rgba(176, 204, 227, 0.689);
+   border-top: 1cm;
+   border-left: 1cm;
+   border-right: 1cm;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-family: monospace;
+  
+
+}
+
+h1{
+    margin-bottom:90px;
+}
+#run_game_btn{
+    width: 150px;
+    height: 75px;
+}
+#input_form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    height: 20vh;
+  margin-top: 20px;   
+}
+
+#help{
+    margin-top: 25px;
+}
+h4 {
+    margin-bottom:90px;
+    margin-left: 20px;
+}
+
+.green {
+    background-color: rgba(108, 220, 88, 0.848);
+}
+.red {
+    background-color: rgba(220, 88, 88, 0.848);
+}
+#min, #secs, #word, #score {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-family: monospace;
+    font-size: 2rem;
+}

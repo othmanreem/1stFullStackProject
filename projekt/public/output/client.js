@@ -1,0 +1,2 @@
+(()=>{async function r(e){let s=await(await fetch("/login",{method:"post",headers:{"content-Type":"application/json"},body:JSON.stringify({data:e})})).json();i(s.sub,s.name)}window.userInfo=r;async function i(e,n){let t=await(await fetch("/me",{method:"post",headers:{"content-Type":"application/json"},body:JSON.stringify({id:e,name:n})})).json(),o=document.referrer,a=o.includes("shared.html")?o:"index.html";if(e===t){let d=localStorage.setItem("userId",t);window.location.assign(a)}}})();
+//# sourceMappingURL=client.js.map
